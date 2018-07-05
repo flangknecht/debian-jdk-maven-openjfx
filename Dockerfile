@@ -10,6 +10,7 @@ LABEL org.label-schema.docker.dockerfile="/Dockerfile" \
 RUN apt update && apt -t jessie-backports -qq -y install \
         openjdk-8-jdk-headless \
         openjdk-8-jre-headless \
+	xvfb \
         ca-certificates-java \
         openjfx \
         maven
