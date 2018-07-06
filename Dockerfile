@@ -12,7 +12,7 @@ RUN apt update && apt -t jessie-backports -qq -y install \
         openjdk-8-jre-headless \
 	xvfb \
         ca-certificates-java \
-	rpmbuild \
-	fakeroot \
         openjfx \
-        maven
+        maven \
+	fakeroot
+
